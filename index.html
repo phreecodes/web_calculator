@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freedom's Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+    <section id="calculator">
+        <div class="container">
+            <div class="main-calc-div mt-5">
+                <div class="center-calc">
+                    <div class="container glass-div">
+                        <input type="text" id="main-glass-input" readonly>
+                    </div>
+                    <div class="container cover-button-div">
+                        <div class="button-div">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="text-up">
+                                        <h6>Freedom's Calc.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 up-button">
+                                    <div class="house-up-button">
+                                        <button onclick="inputClear()" class="equals-button">cl</button>
+                                        <button onclick="inputDelete()" class="button">del</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-row">
+                                <button onclick="inputSquare()" class="sign">sq</button>
+                                <button onclick="inputSquareRoot()" class="sign"><img src="images/square-root.png" alt="" style="color: #fff;" width="15px" height="10px;"></button>
+                                <button onclick="inputSin()" class="sign">sin</button>
+                                <button onclick="inputCos()" class="sign">cos</button>
+                                <button onclick="inputTan()" class="sign">tan</button>
+                            </div>
+                            <div class="row-one">
+                                <button onclick="inputNumber7()" class="button">7</button>
+                                <button onclick="inputNumber8()" class="button">8</button>
+                                <button onclick="inputNumber9()" class="button">9</button>
+                                <button onclick="divideNumber()" class="sign"><img src="images/divide.png" alt="" style="color: #fff;" width="10px" height="10px;"></button>
+                            </div>
+                            <div class="row-one">
+                                <button onclick="inputNumber4()" class="button">4</button>
+                                <button onclick="inputNumber5()" class="button">5</button>
+                                <button onclick="inputNumber6()" class="button">6</button>
+                                <button onclick="multiplyNumber()" class="sign"><img src="images/multiplication.png" alt="" style="color: #fff;" width="10px" height="10px;"></button>
+                            </div>
+                            <div class="row-one">
+                                <button onclick="inputNumber1()" class="button">1</button>
+                                <button onclick="inputNumber2()" class="button">2</button>
+                                <button onclick="inputNumber3()" class="button">3</button>
+                                <button onclick="subNumber()" class="sign">-</button>
+                            </div>
+                            <div class="row-one">
+                                <button onclick="inputNumber0()" class="button">0</button>
+                                <button onclick="inputDot()" class="sign">.</button>
+                                <button onclick="addNumber()" class="sign">+</button>
+                                <button onclick="solution()" class="button">=</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="freedom.js"></script>
+</body>
+</html>
